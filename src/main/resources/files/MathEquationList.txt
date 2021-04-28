@@ -1,0 +1,5 @@
+1#Weight Exceeds 50KG#F.VAL[WEIGHT]>50#N/A#Rejected
+2#Weight Exceeds 10KG#F.VAL[WEIGHT]>10#20*F.VAL[WEIGHT]#Heavy Parcel
+3#Volume less than 1500cm#F.VAL[VOLUME]<1500#.03*F.VAL[VOLUME]#Small Parcel
+4#Weight less than 2500cm#F.VAL[VOLUME]<2500#.04*F.VAL[VOLUME]#Medium Parcel
+5#Weight more than 2500cm#F.VAL[VOLUME]>=2500#.05*F.VAL[VOLUME]#Large Parcel
